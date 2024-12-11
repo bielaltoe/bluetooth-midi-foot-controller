@@ -208,12 +208,15 @@ graph LR
 *LoopMIDI virtual port configuration*
 
 ## 🎛️ Gig Performer Integration
-Gig Performer 5 project file is available in the repository: [FILE](https://github.com/bielaltoe/bluetooth-midi-foot-controller/blob/main/GigPerformer5/NDSP-Archetype-Cory Wong-adapted_by_gabriel.gig)
+Gig Performer 5 project [file](GigPerformer5\NDSP-Archetype-Cory-Wong(complete)-adapted_by_gabriel.gig) is available.
 
-My Gig Performer 5 project is a modified version of the [NDSP-Archetype-Cory Wong](link). 
+![Gig Performer 5 Rackspace](images/gp5-integration.png)
+*Gig Performer 5 Rackspace integration*
+
+My Gig Performer 5 project is a modified version of the [NDSP-Archetype-Cory Wong Rackspace](https://community.gigperformer.com/t/gig-neural-dsp-archetype-cory-wong-with-v4-5-features/10761). 
 
 ### Plugin Interface
-![Neural DSP Interface](images/neural-dsp-interface.jpg)
+![Neural DSP Interface](images/cory_interface.webp)
 *Neural DSP Archetype Cory Wong plugin interface in Gig Performer 5*
 
 ### Control Mapping
