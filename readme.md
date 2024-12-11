@@ -50,6 +50,10 @@ A versatile Bluetooth Low Energy (BLE) MIDI foot controller built with ESP32 and
   - LoopMidi (for MIDI routing)
 
 ## 🎸 Live Rig Setup
+ <p align="center">
+   <img src="images/live_usage.jpeg" width="400" alt="Live Rig Setup">
+ </p>
+
 
 - Dell G5 laptop running Windows 11
 - Behringer audio interface
@@ -233,14 +237,7 @@ Footswitch 5: Note 38 - Reverb On/Off
 ### Generalization of the Platform
 The goal is to transform this project into a versatile MIDI control solution that can be adapted for various performance scenarios:
 
-1. **Multi-Instrument Support**
-   - Electric/Acoustic Guitar Effects
-   - Keyboard/Synthesizer Control
-   - DJ Controller Integration
-   - Drum Machine Programming
-   ![Multi-Instrument Example](images/multi-instrument-concept.jpg)
-
-2. **Modular Hardware Design**
+1. **Modular Hardware Design**
    ```mermaid
    graph TD
        Core[Core Module ESP32] --> A[Guitar Module]
@@ -252,11 +249,11 @@ The goal is to transform this project into a versatile MIDI control solution tha
        class A,B,C,D module;
    ```
 
-5. **Planned Features**
+2. **Planned Features**
    - Raspberry Pi app for remote configuration.
    - Integration with [MIDI_FOOT_UI](https://github.com/bielaltoe/MIDI_FOOT_UI) for enhanced visual feedback
 
-6. **Hardware MIDI Integration**
+3. **Hardware MIDI Integration**
    - Direct MIDI hardware connectivity without computer bridge
    - Support for traditional 5-pin DIN MIDI connections
    - Standalone operation for guitar pedals and multi-effects units
